@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Css and JS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+    <title>Age verifier</title>
+
+    <!-- Title icon -->
+    <link rel="shortcut icon" href="images/calendario.png" type="image/x-icon">
+</head>
+    <body>
+        <header>
+            <h1>What's your age?</h1>
+        </header>
+        <section>
+            <div>
+                <p>Birth year:
+                    <input type="number" id="year" min="0">
+                </p>
+                <p>Sex:
+                    <input type="radio" name="sex" id="masc" value="masc" checked>
+                    <label for="masc">Masculine</label>
+                    <input type="radio" name="sex" id="fem" value="fem" >
+                    <label for="fem">Feminine</label>
+                </p>
+                <p><input type="button" value="Check!" onclick="verify()"></p>
+            </div>
+            <div id="result">
+                
+            </div>
+        </section>
+        <footer>
+            <p>Curso em Video &reg; 2022</p>
+        </footer>
+            <p id="identity">github.com/SouzaMatheus1</p>
+    </body>
+</html>
