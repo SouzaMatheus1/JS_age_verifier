@@ -17,7 +17,7 @@ function verify(){
     let gender = ''
 
     if(year > now_year || year == 0 || year == null){
-        alert('Invalid year! Pleas try again.')
+        alert('Invalid year! Please try again.')
     }else{
         // Age definition
         let age = Number(now_year) - Number(year)
